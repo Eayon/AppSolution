@@ -1,0 +1,62 @@
+﻿@model App.Models.Sys.SysSampleModel
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Index_LayoutEdit.cshtml";
+}
+
+
+ <table class="fromEditTable setTextWidth300">
+        <tbody>
+		<tr>
+		   <td style="width:100px; text-align:right;">
+			Name：
+		   </td>
+		   <td>
+				@Html.DisplayFor(model => model.Name)
+		   </td>
+		</tr>
+		<tr>
+		   <td style="width:100px; text-align:right;">
+			Age：
+		   </td>
+		   <td>
+				@Html.DisplayFor(model => model.Age)
+		   </td>
+		</tr>
+		<tr>
+		   <td style="width:100px; text-align:right;">
+			Bir：
+		   </td>
+		   <td>
+				@Html.DisplayFor(model => model.Bir)
+		   </td>
+		</tr>
+		<tr>
+		   <td style="width:100px; text-align:right;">
+			Photo：
+		   </td>
+		   <td>
+               
+				@Html.DisplayFor(model => model.Photo)
+		   </td>
+		</tr>
+		<tr>
+		   <td style="width:100px; text-align:right;">
+			Note：
+		   </td>
+		   <td>
+				@Html.DisplayFor(model => model.Note)
+		   </td>
+		</tr>
+		<tr>
+		   <td style="width:100px; text-align:right;">
+			CreateTime：
+		   </td>
+		   <td>
+				@Html.DisplayFor(model => model.CreateTime)
+		   </td>
+		</tr>
+ </tbody>
+    </table>
+

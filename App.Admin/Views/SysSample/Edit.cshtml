@@ -1,0 +1,141 @@
+﻿@model App.Models.Sys.SysSampleModel
+@using App.Common;
+@using App.Admin;
+@using App.Models.Sys;
+@{
+     ViewBag.Title = "修改";
+    Layout = "~/Views/Shared/_Index_LayoutEdit.cshtml";
+    
+    List<permModel> perm = (List<permModel>)ViewBag.Perm;
+    if (perm == null)
+    {
+        perm = new List<permModel>();
+    }
+}
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#btnSave").click(function () {
+            if ($("#EditForm").valid()) {
+                $.ajax({
+                    url: "/SysSample/Edit",
+                    type: "Post",
+                    data: $("#EditForm").serialize(),
+                    dataType: "json",
+                    success: function (data) {
+                        if (data.type == 1) {
+                            window.parent.frameReturnByMes(data.message);
+                            window.parent.frameReturnByReload(true);
+                            window.parent.frameReturnByClose()
+                        }
+                        else {
+                            window.parent.frameReturnByMes(data.message);
+                        }
+                    }
+                });
+            }
+            return false;
+        });
+    });
+    </script>
+<a style="display:none" id="UpLoadAjax" href="" data-ajax-update="#UpLoadDialog" data-ajax-mode="replace" data-ajax-method="GET" data-ajax="true">Upload</a>
+<div id="UpLoadDialog"></div>
+<div class="mvctool bgb">
+    @Html.ToolButton("btnSave", "icon-save", "保存", perm, "Save", true)
+</div>
+@using (Html.BeginForm("Edit", "SysSample", null, FormMethod.Post, new { Id = "EditForm" }))
+{
+    @Html.ValidationSummary(true)
+    <table class="fromEditTable setTextWidth300">
+        <tbody>
+            <tr>
+                <td style="width:100px; text-align:right;">
+                    @Html.LabelFor(model => model.Id)：
+                </td>
+                <td style="width:310px">
+                    @Html.EditorFor(model => model.Id)
+                </td>
+                <td>@Html.ValidationMessageFor(model => model.Id)</td>
+            </tr>
+            <tr>
+                <td style="width:100px; text-align:right;">
+                    @Html.LabelFor(model => model.Name)：
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.Name)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Name)
+                </td>
+            </tr>
+            <tr>
+                <td style="width:100px; text-align:right;">
+                    @Html.LabelFor(model => model.Age)：
+                </td>
+               
+                <td>
+                    @Html.EditorFor(model => model.Age)
+                    </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Age)
+                </td>
+            </tr>
+            <tr>
+                <td style="width:100px; text-align:right;">
+                    @Html.LabelFor(model => model.Bir)：
+                </td>
+                
+                <td>
+                    @Html.TextBoxFor(model => model.Bir, new { @class = "Wdate", onClick = "WdatePicker()" })
+                    </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Bir)
+                </td>
+            </tr>
+           
+            <tr>
+                <td style="width:100px; text-align:right;">
+                    @Html.LabelFor(model => model.Note)：
+                </td>
+               
+                <td>
+                    @Html.EditorFor(model => model.Note)
+                    </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Note)
+                </td>
+            </tr>
+            <tr>
+                <td style="width:100px; text-align:right;">
+                    @Html.LabelFor(model => model.CreateTime)：
+
+                </td>
+                
+                <td>
+                    @Html.TextBoxFor(model => model.CreateTime)
+                    </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.CreateTime)
+                </td>
+            </tr>
+             <tr>
+                <td style="width:100px; text-align:right;">
+                    @Html.LabelFor(model => model.Photo)：
+                </td>
+                 
+                <td>
+                      @Html.HiddenFor(model => model.Photo)
+                <img class="expic" src="@(string.IsNullOrEmpty(Model.Photo)?"/Content/Images/NotPic.jpg":Model.Photo)" /><br />
+                <a href="javascript:$('#FileUpload').trigger('click');" class="files">
+                    <input type="file" size="10" value="" id="FileUpload" name="FileUpload" onchange="Upload('SingleFile', 'Photo', 'FileUpload','1','1');" />
+                </a><span class="uploading">请稍候...</span>
+
+                    </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Photo)
+                </td>
+            </tr>
+        </tbody>
+    </table>
+}
