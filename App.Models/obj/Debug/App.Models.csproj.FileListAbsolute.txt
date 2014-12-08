@@ -16,3 +16,12 @@ C:\Users\Administrator\Desktop\AppSolution\App.Models\bin\Debug\zh-Hans\EntityFr
 C:\Users\Administrator\Desktop\AppSolution\App.Models\obj\Debug\App.Models.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\AppSolution\App.Models\obj\Debug\App.Models.dll
 C:\Users\Administrator\Desktop\AppSolution\App.Models\obj\Debug\App.Models.pdb
+G:\wwwroot\GitHub\AppSolution\App.Models\bin\Debug\App.Models.dll.config
+G:\wwwroot\GitHub\AppSolution\App.Models\bin\Debug\App.Models.dll
+G:\wwwroot\GitHub\AppSolution\App.Models\bin\Debug\App.Models.pdb
+G:\wwwroot\GitHub\AppSolution\App.Models\bin\Debug\EntityFramework.dll
+G:\wwwroot\GitHub\AppSolution\App.Models\bin\Debug\EntityFramework.xml
+G:\wwwroot\GitHub\AppSolution\App.Models\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\wwwroot\GitHub\AppSolution\App.Models\obj\Debug\App.Models.csprojResolveAssemblyReference.cache
+G:\wwwroot\GitHub\AppSolution\App.Models\obj\Debug\App.Models.dll
+G:\wwwroot\GitHub\AppSolution\App.Models\obj\Debug\App.Models.pdb

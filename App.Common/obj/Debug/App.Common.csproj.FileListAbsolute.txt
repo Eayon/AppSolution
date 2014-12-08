@@ -11,3 +11,12 @@ C:\Users\Administrator\Desktop\AppSolution\App.Common\bin\Debug\App.Common.dll.c
 C:\Users\Administrator\Desktop\AppSolution\App.Common\bin\Debug\EntityFramework.dll
 C:\Users\Administrator\Desktop\AppSolution\App.Common\bin\Debug\EntityFramework.xml
 C:\Users\Administrator\Desktop\AppSolution\App.Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\wwwroot\GitHub\AppSolution\App.Common\bin\Debug\App.Common.dll.config
+G:\wwwroot\GitHub\AppSolution\App.Common\bin\Debug\App.Common.dll
+G:\wwwroot\GitHub\AppSolution\App.Common\bin\Debug\App.Common.pdb
+G:\wwwroot\GitHub\AppSolution\App.Common\bin\Debug\EntityFramework.dll
+G:\wwwroot\GitHub\AppSolution\App.Common\bin\Debug\EntityFramework.xml
+G:\wwwroot\GitHub\AppSolution\App.Common\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\wwwroot\GitHub\AppSolution\App.Common\obj\Debug\App.Common.csprojResolveAssemblyReference.cache
+G:\wwwroot\GitHub\AppSolution\App.Common\obj\Debug\App.Common.dll
+G:\wwwroot\GitHub\AppSolution\App.Common\obj\Debug\App.Common.pdb

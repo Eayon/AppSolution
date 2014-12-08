@@ -20,3 +20,16 @@ C:\Users\Administrator\Desktop\AppSolution\App.DAL\bin\Debug\App.DAL.dll.config
 C:\Users\Administrator\Desktop\AppSolution\App.DAL\bin\Debug\EntityFramework.dll
 C:\Users\Administrator\Desktop\AppSolution\App.DAL\bin\Debug\EntityFramework.xml
 C:\Users\Administrator\Desktop\AppSolution\App.DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\wwwroot\GitHub\AppSolution\App.DAL\bin\Debug\App.DAL.dll.config
+G:\wwwroot\GitHub\AppSolution\App.DAL\bin\Debug\App.DAL.dll
+G:\wwwroot\GitHub\AppSolution\App.DAL\bin\Debug\App.DAL.pdb
+G:\wwwroot\GitHub\AppSolution\App.DAL\bin\Debug\App.IDAL.dll
+G:\wwwroot\GitHub\AppSolution\App.DAL\bin\Debug\App.Models.dll
+G:\wwwroot\GitHub\AppSolution\App.DAL\bin\Debug\EntityFramework.dll
+G:\wwwroot\GitHub\AppSolution\App.DAL\bin\Debug\App.IDAL.pdb
+G:\wwwroot\GitHub\AppSolution\App.DAL\bin\Debug\App.Models.pdb
+G:\wwwroot\GitHub\AppSolution\App.DAL\bin\Debug\EntityFramework.xml
+G:\wwwroot\GitHub\AppSolution\App.DAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\wwwroot\GitHub\AppSolution\App.DAL\obj\Debug\App.DAL.csprojResolveAssemblyReference.cache
+G:\wwwroot\GitHub\AppSolution\App.DAL\obj\Debug\App.DAL.dll
+G:\wwwroot\GitHub\AppSolution\App.DAL\obj\Debug\App.DAL.pdb

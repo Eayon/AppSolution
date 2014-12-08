@@ -16,3 +16,14 @@ C:\Users\Administrator\Desktop\AppSolution\App.IDAL\bin\Debug\App.IDAL.dll.confi
 C:\Users\Administrator\Desktop\AppSolution\App.IDAL\bin\Debug\EntityFramework.dll
 C:\Users\Administrator\Desktop\AppSolution\App.IDAL\bin\Debug\EntityFramework.xml
 C:\Users\Administrator\Desktop\AppSolution\App.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\wwwroot\GitHub\AppSolution\App.IDAL\bin\Debug\App.IDAL.dll.config
+G:\wwwroot\GitHub\AppSolution\App.IDAL\bin\Debug\App.IDAL.dll
+G:\wwwroot\GitHub\AppSolution\App.IDAL\bin\Debug\App.IDAL.pdb
+G:\wwwroot\GitHub\AppSolution\App.IDAL\bin\Debug\App.Models.dll
+G:\wwwroot\GitHub\AppSolution\App.IDAL\bin\Debug\EntityFramework.dll
+G:\wwwroot\GitHub\AppSolution\App.IDAL\bin\Debug\App.Models.pdb
+G:\wwwroot\GitHub\AppSolution\App.IDAL\bin\Debug\EntityFramework.xml
+G:\wwwroot\GitHub\AppSolution\App.IDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+G:\wwwroot\GitHub\AppSolution\App.IDAL\obj\Debug\App.IDAL.csprojResolveAssemblyReference.cache
+G:\wwwroot\GitHub\AppSolution\App.IDAL\obj\Debug\App.IDAL.dll
+G:\wwwroot\GitHub\AppSolution\App.IDAL\obj\Debug\App.IDAL.pdb
